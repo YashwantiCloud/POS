@@ -1,13 +1,9 @@
 package com.yc.pos.controller;
 
-import com.yc.pos.model.Category;
-import com.yc.pos.service.CategoryService;
 //import org.springframework.beans.factory.annotation;
 //import org.springframework.stereotype.ContAutowiredroller;
-import org.springframework.ui.Model;
 //import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
 
 //@Controller
 //@RequestMapping("/categories")
