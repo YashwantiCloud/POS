@@ -8,7 +8,6 @@ public interface PersonDao {
 
     // Create
     void save(Person person);
-
     // Read
     Person findById(int personId);
     List<Person> findAll();

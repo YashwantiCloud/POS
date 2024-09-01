@@ -1,6 +1,8 @@
 package com.yc.pos.config;
 
+import com.yc.pos.dao.CustomerDaoImpl;
 import com.yc.pos.dao.PersonDaoImpl;
+import com.yc.pos.model.Customer;
 import com.yc.pos.model.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -18,6 +20,14 @@ public class ApplicationConfig {
     @Bean
     public PersonDaoImpl personDaoImpl() {
         return new PersonDaoImpl();
+    }
+    @Bean
+    public CustomerDaoImpl customerDaoImpl() {
+        return new CustomerDaoImpl();
+    }
+    @Bean
+    public Customer customer(){
+        return new Customer();
     }
 
 }
